@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfollio</title>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p> UI/UX Designer</p>
+                <h1>Hi, I'm <span>Nandini</span> <br>from India</h1>
+            </div>
+        </div>
+    </div>
+   
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <img src="images/user.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="tittle">About Me</h1>
+                       <p>I'm a second-year computer science student with basic HTML and CSS skills. I love sports and enjoy engaging in creative projects. Passionate about web development and always eager to learn and grow.</p>
+                    <div class="tab-tittles">
+                        <p class=" tab-links active-link" onclick="opentab('Skills')">skills</p>
+                        <p class=" tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class=" tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contains active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing App/ Web</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Code Languages</span><br> C Programming</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="Experience">
+                        <ul>
+                            <li><span>2024 - 2025</span><br>Internship at codesoft</li>
+                            <li><span>2024 - Current</span><br>Fresher</li>
+                            
+                           
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="Education">
+                        <ul>
+                            <li><span>2024</span><br>second-year</li>
+                            <li><span>2024-current</span><br>BA From Mumbai University</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------bh---->
+   <div id="services">
+    <div class="container">
+        <h1 class=" tittle"> My Skills</h1>
+        <div class="Skills-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    
+                    Basic JavaScript: Familiar with basic JavaScript for simple interactive elements.
+                    
+                   <br>Responsive Design: Capable of designing websites that work well on mobile devices.
+                    
+                    <br>Version Control: Basic knowledge of Git and GitHub.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-gears"></i>
+                <h2>Creative Skills</h2>
+                <p>Design Thinking: Ability to approach problems with creative and user-centric solutions.<br>
+                    Creative Problem Solving: Innovative in finding effective solutions to design challenges. <br>
+
+                    Adaptability: Flexible in adopting new design trends and techniques.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-fire-flame-curved"></i>
+                <h2>sports</h2>
+                <p>Fitness: Committed to maintaining a healthy lifestyle through regular gym workouts and running. <br>
+
+                    Teamwork and Leadership: Developed strong teamwork and leadership skills through various sports activities.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!--------------My Projects------>
+<div id="projects">
+    <div class="container">
+        <h1 class=" tittle"> My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/pr1.png" >
+                <div class="layer">
+                    <h3> Text Editor With LSP Support</h3>
+                    <p>We integrate LSP supprt in our terminal, which gains powerfull features like code completion, Error cheaking </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+<!-----contscy------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>274nandiniz@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9224278706</p>
+                <div class="social-icons">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                </div>
+                  <a href="images/resume.png"  download class="btn"> Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="Your Email"required>
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> I am Nandini .<i class="fa-solid fa-heart"></i> from  Mumbai <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+    <script>
+         var tablinks = document.getElementsByClassName('tab-linls');
+         var tabcontains = document.getElementsByClassName('tab-contains');
+
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontain of tabcontains){
+                tabcontain.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+</body>
+</html>
